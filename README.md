@@ -55,7 +55,7 @@ A sample of the merged dataset (OutputFile.csv) is included in the repository as
 
 ## Structure of the Repository
  
-[README.md](https://www.example.com) which explains the purpose of the project, installation of the code and its dependencies
+[README.md](README.md) which explains the purpose of the project, installation of the code and its dependencies
 
 [MLmodel.ipynb](https://www.example.com) a Jupyter notebook with the code to perform machine learning models for phenology data. 
 
