@@ -61,7 +61,7 @@ A sample of the merged dataset (OutputFile.csv) is included in the repository as
 
 [OutputFile.csv](OutputFile.csv) a sample output file which is a result of data merging
 
-[Docker_instructions.md](https://www.example.com) ...
+[Docker_instructions.md](Docker_instructions.md) ...
 
 [LICENSE](https://www.example.com) This project is licensed under the Apache License, Version 2.0
 
