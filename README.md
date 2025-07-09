@@ -57,7 +57,7 @@ A sample of the merged dataset (OutputFile.csv) is included in the repository as
  
 [README.md](README.md) which explains the purpose of the project, installation of the code and its dependencies
 
-[MLmodel.ipynb](https://www.example.com) a Jupyter notebook with the code to perform machine learning models for phenology data. 
+[MLmodel.ipynb](MLmodel.ipynb) a Jupyter notebook with the code to perform machine learning models for phenology data. 
 
 [OutputFile.csv](https://www.example.com) a sample output file which is a result of data merging
 
