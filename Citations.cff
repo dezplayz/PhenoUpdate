@@ -1,0 +1,33 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: springtime
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Mahdi
+    family-names: Khodadzadeh
+  - given-names: Peter
+    family-names: Kalverla
+  - given-names: Raul
+    family-names: 'Zurita '
+    name-suffix: Mila
+identifiers:
+  - type: doi
+    value: 10.1109/IGARSS53475.2024.10641356
+repository-code: 'https://github.com/phenology/springtime.git'
+url: 'https://springtime.readthedocs.io/en/latest/'
+abstract: >-
+  We are attempting to use the springtime package to perform
+  machine learning modeling to understand climate change by
+  observing changes in phenology. We use springtime data to
+  focus on the phenological study of Red Maple (Acer
+  rubrum). This is a replication of the paper, Harmonizing
+  Machine Learning Based Phenological Modeling: A Unified
+  Workflow for Comparative Analyses [1] The states focused
+  on are New York (NY), Illinois(IL), and Minnesota (MN).
+  The project uses documentation from springtime
+license: Apache-2.0
