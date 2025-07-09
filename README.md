@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository provides a containerized setup for running phenological modeling using the Springtime library. It adresses compatibility issues on Windows by using Docker. This functions as a repair to the original replication project [title](https://www.example.com) with the goal of enhancing reproducibility through Docker.
+This repository provides a containerized setup for running phenological modeling using the Springtime library. It adresses compatibility issues on Windows by using Docker. This functions as a repair to the original replication project [PhenoModel](https://github.com/medh642/PhenoModel) with the goal of enhancing reproducibility through Docker.
 
 ## Objective
 
@@ -50,7 +50,29 @@ The datasets are accessed through Springtime modules:
 - `springtime.datasets.daymet.get_data()` for climate data filtered to NY, IL, and MN.
 
 The two datasets are merged using a temporal join through pandas, based on their shared location and date values. 
-A sample of the merged dataset (OutputFile.csv) is included in the repository as reference to the expected output structure and was used from the original PhenoModel repository [title](https://www.example.com).
+A sample of the merged dataset (OutputFile.csv) is included in the repository as reference to the expected output structure and was used from the original PhenoModel repository [PhenoModel](https://github.com/medh642/PhenoModel).
 
 ## Structure of the Repository
-README.md 
+ 
+[README.md](https://www.example.com) which explains the purpose of the project, installation of the code and its dependencies
+[MLmodel.ipynb](https://www.example.com) a Jupyter notebook with the code to perform machine learning models for phenology data. 
+[OutputFile.csv](https://www.example.com) a sample output file which is a result of data merging
+[Docker_instructions.md](https://www.example.com) ...
+[LICENSE](https://www.example.com) This project is licensed under the Apache License, Version 2.0
+
+**Note:** The for Windows patched file [utils.py](https://www.example.com) is no longer required in the Docker based setup. Hereby, the containerized Linux environment runs without SIGALARM related issues when executed. 
+
+##Key Features regarding Objectives
+- Docker based environment for robust reproducibility
+- Jupyter based container with all dependencies
+- Simplified setup for Windows users
+- Transparent data handling using Springtime modules
+- Sample output included for reference and validation
+
+##References
+- Springtime Docs: https://springtime.readthedocs.io
+- Original Study: Khodadadzadeh et al. (2024), IEEE IGARSS
+- Forked from: medh642/PhenoModel https://github.com/medh642/PhenoModel
+
+##License
+Apache 2.0. See `LICENSE` file.
