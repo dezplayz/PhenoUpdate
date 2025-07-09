@@ -27,6 +27,7 @@ Creating a robust and platform independant replication of using phenological mod
 ### 3. Launch Jupyter Notebook
 
 Inside container:
+
 `jupyter notebook --ip=0.0.0.0 --port=8888 --allow-root`
 
 Then, open http://localhost:8888 in your browser.
