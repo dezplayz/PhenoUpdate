@@ -55,15 +55,15 @@ A sample of the merged dataset (OutputFile.csv) is included in the repository as
 
 ## Structure of the Repository
  
-[README.md](README.md) which explains the purpose of the project, installation of the code and its dependencies
+[README.md](README.md) which explains the purpose of the project, installation of the code and its dependencies.
 
 [MLmodel.ipynb](MLmodel.ipynb) a Jupyter notebook with the code to perform machine learning models for phenology data. 
 
-[OutputFile.csv](OutputFile.csv) a sample output file which is a result of data merging
+[OutputFile.csv](OutputFile.csv) a sample output file which is a result of data merging.
 
-[Docker_instructions.md](Docker_instructions.md) ...
+[Docker_instructions.md](Docker_instructions.md) a detailed guide to run the phenological modelling pipeline using Docker.
 
-[LICENSE](https://www.example.com) This project is licensed under the Apache License, Version 2.0
+[LICENSE](LICENSE) This project is licensed under the Apache License, Version 2.0
 
 [utils.py](https://github.com/phenology/springtime/pkgs/container/springtime) from original Springtime repository
 **Note:** The for Windows patched file [utils.py](https://github.com/medh642/PhenoModel) is no longer required in the Docker based setup. Hereby, the containerized Linux environment runs without SIGALARM related issues when executed. 
