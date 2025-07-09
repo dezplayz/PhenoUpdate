@@ -55,9 +55,13 @@ A sample of the merged dataset (OutputFile.csv) is included in the repository as
 ## Structure of the Repository
  
 [README.md](https://www.example.com) which explains the purpose of the project, installation of the code and its dependencies
+
 [MLmodel.ipynb](https://www.example.com) a Jupyter notebook with the code to perform machine learning models for phenology data. 
+
 [OutputFile.csv](https://www.example.com) a sample output file which is a result of data merging
+
 [Docker_instructions.md](https://www.example.com) ...
+
 [LICENSE](https://www.example.com) This project is licensed under the Apache License, Version 2.0
 
 **Note:** The for Windows patched file [utils.py](https://www.example.com) is no longer required in the Docker based setup. Hereby, the containerized Linux environment runs without SIGALARM related issues when executed. 
