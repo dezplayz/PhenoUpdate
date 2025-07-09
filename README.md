@@ -65,7 +65,8 @@ A sample of the merged dataset (OutputFile.csv) is included in the repository as
 
 [LICENSE](https://www.example.com) This project is licensed under the Apache License, Version 2.0
 
-**Note:** The for Windows patched file [utils.py](https://www.example.com) is no longer required in the Docker based setup. Hereby, the containerized Linux environment runs without SIGALARM related issues when executed. 
+[utils.py](https://github.com/phenology/springtime/pkgs/container/springtime) from original Springtime repository
+**Note:** The for Windows patched file [utils.py](https://github.com/medh642/PhenoModel) is no longer required in the Docker based setup. Hereby, the containerized Linux environment runs without SIGALARM related issues when executed. 
 
 ##Key Features regarding Objectives
 - Docker based environment for robust reproducibility
